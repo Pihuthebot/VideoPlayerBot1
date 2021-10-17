@@ -25,14 +25,14 @@ load_dotenv()
 admins = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "AsmSupport")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+API_ID = int(getenv("API_ID", "8755605"))
+API_HASH = getenv("API_HASH", "9d067982dcaa2f7020957036e2a1cb89")
+BOT_TOKEN = getenv("BOT_TOKEN", "2034558488:AAFCVz6rjcXEu1Opzyfny2oSMIuphk2SUlQ")
+SESSION_STRING = getenv("SESSION_STRING", "+918302453457")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "WorldWideChatsXd")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Sanki_BOTs")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "GalaxinaVcAssistant")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "2067182444").split()))
 REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
